@@ -29,18 +29,6 @@ To run the application locally, you'll need Python 3.6+ installed.
 - **requirements.txt**: Python dependencies.
 - **Procfile**: Heroku deployment configuration (not used for Streamlit Community Cloud).
 
-**chatstat**/
-**│**
-**├── app.py**
-**├── helper.py**
-**├── preprocessor.py**
-**├── requirements.txt**
-**├── setup.sh**
-**├── Procfile**
-**└── README.md**
-
-
-
 ## Deployments
 This app can be deployed using the Streamlit Community Cloud. Push your code to a GitHub repository and deploy from there. For detailed instructions, refer to the Streamlit Sharing documentation.
 
