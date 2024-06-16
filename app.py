@@ -9,8 +9,8 @@ st.sidebar.title("ChatStat 💬 📲 📈")
 uploaded_file = st.sidebar.file_uploader("Choose a Whatsapp text file (exported chat must be from android 📲)")
 
 if uploaded_file is None:
-    st.title("Chat Analyzer 📲 📈")
-    st.write("Upload a WhatsApp chat file to start the analysis.") 
+    st.markdown('<div class="title-text">Chat Analyzer</div>', unsafe_allow_html=True)
+    st.markdown('<div class="upload-text">Upload a WhatsApp chat file to start the analysis.</div>', unsafe_allow_html=True)
 
 if uploaded_file is not None:
     bytes_data = uploaded_file.getvalue()
