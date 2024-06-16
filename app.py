@@ -5,7 +5,13 @@ import seaborn as sns
 
 st.sidebar.title("ChatStat 💬 📲 📈")
 
+
 uploaded_file = st.sidebar.file_uploader("Choose a Whatsapp text file (exported chat must be from android 📲)")
+
+if uploaded_file is None:
+    st.title("Chat Analyzer 📲 📈")
+    st.write("Upload a WhatsApp chat file to start the analysis.") 
+
 if uploaded_file is not None:
     bytes_data = uploaded_file.getvalue()
     data = bytes_data.decode("utf-8")
