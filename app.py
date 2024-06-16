@@ -4,36 +4,11 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-def add_bg_from_url():
-    st.markdown(
-        f"""
-        <style>
-        .title-text {{
-            color: white;
-            text-align: center;
-            font-size: 3rem;  /* Updated title font size */
-            margin-top: 20%;
-        }}
-        .upload-text {{
-            color: white;
-            text-align: center;
-            font-size: 1.5rem;
-            margin-top: 10px;
-        }}
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
 
 st.sidebar.title("ChatStat 💬 📲 📈")
 
 
 uploaded_file = st.sidebar.file_uploader("Choose a Whatsapp text file (exported chat must be from android 📲)")
-
-if uploaded_file is None:
-    add_bg_from_url()
-    st.markdown('<div class="title-text">Chat Analyzer</div>', unsafe_allow_html=True)
-    st.markdown('<div class="upload-text">Upload a WhatsApp chat file to start the analysis.</div>', unsafe_allow_html=True)
 
 if uploaded_file is not None:
     bytes_data = uploaded_file.getvalue()
