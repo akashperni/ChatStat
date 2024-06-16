@@ -29,15 +29,16 @@ To run the application locally, you'll need Python 3.6+ installed.
 - **requirements.txt**: Python dependencies.
 - **Procfile**: Heroku deployment configuration (not used for Streamlit Community Cloud).
 
-chatstat/
-│
-├── app.py
-├── helper.py
-├── preprocessor.py
-├── requirements.txt
-├── setup.sh
-├── Procfile
-└── README.md
+**chatstat**/
+**│**
+**├── app.py**
+**├── helper.py**
+**├── preprocessor.py**
+**├── requirements.txt**
+**├── setup.sh**
+**├── Procfile**
+**└── README.md**
+
 
 
 ## Deployments
@@ -52,8 +53,9 @@ Click "Show Analysis" to see various statistics and visualizations.
 ## Output Screen
 
 ![Output Screen](https://drive.google.com/uc?id=1PtKSiwWoLr2hnjigFfCze-x2_5GqsVAJ)
-![Output Screen](https://drive.google.com/uc?id=1840WwdmFGp98ssa79orlMuLyYCodm-S9)
 ![Output Screen](https://drive.google.com/uc?id=1VVjK7sQBnCFdT4d5N4kF0hVOzc58VFSJ)
+![Output Screen](https://drive.google.com/uc?id=1840WwdmFGp98ssa79orlMuLyYCodm-S9)
+
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request for any improvements.
