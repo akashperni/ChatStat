@@ -9,7 +9,7 @@ def add_bg_from_url():
         f"""
         <style>
         .stApp {{
-            background-image: url("https://images.app.goo.gl/C69ZEh3PaT1X9CB37");
+            background-image: url("/Users/akashperni/Desktop/project/ChatStat/background.avif");
             background-size: cover;
             background-position: center;
         }}
